@@ -75,7 +75,7 @@ class TelegramNotificationService
         $ref = strtoupper(substr(md5($data['date'] . $data['customer_name']), 0, 8));
         $message .= "*Order Reference*: `{$ref}`";
 
-        $message .= "\nBy Laravel";
+        $message .= "\nwww.dsdigitalservice.com";
 
         return $message;
     }
